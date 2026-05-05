@@ -34,3 +34,4 @@ C:\Users\joelb\OneDrive\Escritorio\REPOSITORIOS\2026-2027 CI\DAWA_7-3\TaskFlowAp
 C:\Users\joelb\OneDrive\Escritorio\REPOSITORIOS\2026-2027 CI\DAWA_7-3\TaskFlowApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\joelb\OneDrive\Escritorio\REPOSITORIOS\2026-2027 CI\DAWA_7-3\TaskFlowApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\joelb\OneDrive\Escritorio\REPOSITORIOS\2026-2027 CI\DAWA_7-3\TaskFlowApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joelb\OneDrive\Escritorio\REPOSITORIOS\2026-2027 CI\DAWA_7-3\TaskFlowApi\obj\Debug\net10.0\TaskFlowApi.sourcelink.json
