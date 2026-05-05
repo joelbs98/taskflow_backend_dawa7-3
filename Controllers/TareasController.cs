@@ -22,6 +22,19 @@ namespace TaskFlowApi.Controllers
             return Ok(tareas);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var tarea = tareas.FirstOrDefault(t => t.Id == id);
+
+            if (tarea == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(tarea);
+        }
+
         [HttpPost]
         public IActionResult Post([FromBody] Tarea nuevaTarea)
         {
