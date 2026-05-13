@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using TaskFlowApi.Models;
+using TaskFlowApi.Services;
 
 namespace TaskFlowApi.Controllers
 {
+    /*
     [ApiController]
     [Route("api/[controller]")]
     public class LibrosController : ControllerBase
@@ -73,4 +75,47 @@ namespace TaskFlowApi.Controllers
 
 
     }
+    */
+    [ApiController]
+    [Route("api/[controller]")]
+    public class LibrosController : ControllerBase
+    {
+        private readonly LibroService _libroService;
+        //guarda una referencia al servicio
+
+        public LibrosController(LibroService libroService)
+        {
+            _libroService = libroService;
+        }
+        //Cuando .NET crea el controlador, le entrega automaticamente
+        //una instancia de LibroService
+        //Esto es inyección de dependencias, ya que el framework le pasa
+        //al controlador el servicio que necesita
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(_libroService.ObtenerTodos());
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var libro = _libroService.ObtenerporId(id);
+
+            if (libro == null)
+            {
+                return NotFound();
+            }
+            return Ok(libro);
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Libro nuevoLibro)
+        {
+            var libroCreado = _libroService.Agregar(nuevoLibro);
+            return Created("", libroCreado);
+        }
+    }
+
 }

@@ -1,6 +1,12 @@
+using TaskFlowApi.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddSingleton<LibroService>();
+//Registrar el servicio dentro de ASP.NET Core
+//Crear una unica instancia del servicio para toda la aplicación
+// mientras este ejecutandose
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
