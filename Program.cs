@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddSingleton<LibroService>();
+builder.Services.AddSingleton<ProductoService>();
 //Registrar el servicio dentro de ASP.NET Core
 //Crear una unica instancia del servicio para toda la aplicación
 // mientras este ejecutandose
