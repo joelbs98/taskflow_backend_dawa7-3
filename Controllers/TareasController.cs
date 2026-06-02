@@ -48,3 +48,12 @@ namespace TaskFlowApi.Controllers
         // GET /api/tareas/1
     }
 }
+
+/*
+1 El usuario interactua con el frontend
+2 El frontend envia una solicitud al backend
+3 El backend procesa la solicitud
+4. El backend consulta o modifica la base de datos
+5. El backend recibe el resultado
+6. El frontend va a mostrar la respuesta al usuario
+*/
