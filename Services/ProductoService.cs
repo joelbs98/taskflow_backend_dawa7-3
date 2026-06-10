@@ -7,7 +7,9 @@ namespace TaskFlowApi.Services
         private readonly List<Producto> productos = new()
         {
             new Producto { Id = 1, Nombre = "Teclado", Disponible=true},
-            new Producto{ Id = 2, Nombre = "Mouse", Disponible= false}
+            new Producto{ Id = 2, Nombre = "Mouse", Disponible= false},
+            new Producto{ Id = 3, Nombre = "Camara", Disponible= true},
+            new Producto{ Id = 4, Nombre = "PS5", Disponible= false},
         };
 
         public List<Producto> ObtenerTodos()
