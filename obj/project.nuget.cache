@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QOEFlLTTlJY=",
+  "dgSpecHash": "YDCn1HaZwzw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskflowApi\\TaskFlowApi.csproj",
+  "projectFilePath": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskFlowApi\\TaskFlowApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joelb\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
     "C:\\Users\\joelb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",

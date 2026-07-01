@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskflowApi\\TaskFlowApi.csproj": {}
+    "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskFlowApi\\TaskFlowApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskflowApi\\TaskFlowApi.csproj": {
+    "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskFlowApi\\TaskFlowApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskflowApi\\TaskFlowApi.csproj",
+        "projectUniqueName": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskFlowApi\\TaskFlowApi.csproj",
         "projectName": "TaskFlowApi",
-        "projectPath": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskflowApi\\TaskFlowApi.csproj",
+        "projectPath": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskFlowApi\\TaskFlowApi.csproj",
         "packagesPath": "C:\\Users\\joelb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskflowApi\\obj\\",
+        "outputPath": "C:\\Users\\joelb\\OneDrive\\Escritorio\\REPOSITORIOS\\2026-2027 CI\\DAWA_7-3\\TaskFlowApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joelb\\AppData\\Roaming\\NuGet\\NuGet.Config"
